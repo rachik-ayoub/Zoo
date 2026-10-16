@@ -1,0 +1,12 @@
+@import url(''https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@600;700&display=swap'');
+:root { color-scheme: light; font-family: ''DM Sans'', sans-serif; background: #f5eee2; color: #30251f; }
+* { box-sizing: border-box; }
+body { min-height: 100vh; margin: 0; padding: clamp(2rem, 8vw, 7rem) 1.25rem; background: radial-gradient(circle at 90% 10%, #efd3a5 0, transparent 24rem), linear-gradient(140deg, #faf4e9, #eadcc8); }
+h1 { width: min(100%, 780px); margin: 0 auto 2rem; color: #402b22; font: 700 clamp(2rem, 5vw, 3.25rem)/1.1 ''Playfair Display'', Georgia, serif; letter-spacing: -.035em; }
+table { width: min(100%, 780px); margin: 0 auto; border: 0; border-collapse: separate; border-spacing: 0 10px; }
+th { padding: 1rem 1.3rem; color: #8b5b32; font-size: .78rem; letter-spacing: .13em; text-align: left; text-transform: uppercase; }
+td { padding: 1.25rem 1.3rem; background: #fffdf8; border: 0; box-shadow: 0 8px 22px rgb(84 55 34 / 8%); }
+td:first-child { width: 42%; border-radius: 14px 0 0 14px; color: #593b28; font-weight: 700; }
+td:last-child { border-radius: 0 14px 14px 0; color: #53724d; font-weight: 600; }
+tbody tr { transition: transform .18s ease; }
+tbody tr:hover { transform: translateY(-3px); }
